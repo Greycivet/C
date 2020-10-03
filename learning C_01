@@ -35,6 +35,26 @@ int main() {
 	sum = num1 + num2;
 	printf("sum=%d\n",sum);
 	
+	//交换两个整型变量,不使用第三个变量
+	//方法1
+	//会出现溢出问题
+	int a = 10;
+	int b = 20;
+	a = a + b;
+	b = a - b;
+	a = a - b;
+	
+	//方法2
+	//按(二进制)位异或
+ 	//可读性较差
+	int a = 10;
+	int b = 20;
+	a = a ^ b;
+	b = a ^ b;
+	a = a ^ b;
+	printf("a = %d,b = %d\n",a,b);
+
+	
 
 	return 0;
 }
