@@ -11,15 +11,15 @@ int main() {
 
 	printf("HelloWorld!\n");
 
-	char c = 'A';
+	char c = 'A';//创建一个char字符类型变量,赋值A
 
-	printf("%c\n",c); //打印字符串格式
+	printf("%c\n",c); //打印输出字符串格式数据
 
 	int age = 20;
 
-	printf("%d\n",age);
+	printf("%d\n",age);//打印输出整型数据
 
-	printf("%d\n", sizeof(char));
+	printf("%d\n", sizeof(char)); //打印输出数据类型长度
 	printf("%d\n", sizeof(short));
 	printf("%d\n", sizeof(int));
 	printf("%d\n", sizeof(long));
